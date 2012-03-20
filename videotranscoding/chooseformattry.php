@@ -229,7 +229,7 @@ xmlhttp1.send(null);
 			<?php
 				}
 			?>
-			<input type="button" name="Submit" value="Submit" onClick = "func()"></input>
+			<button type="button" name="Submit" value="Submit" onClick = "func()">Submit</button>
 			</form>
 		</div>
 	</div>

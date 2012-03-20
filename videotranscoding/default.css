@@ -39,17 +39,14 @@ body {
 button {
 display: block;
 width: 100px;
-height: 20px;
-padding: 15px 20px 10px 45px;
+height: 40px;
 color:#666666;
 text-decoration: none;
-background:url(img/buttons.jpg) no-repeat 0px -45px;
 
 }
 
 button:hover {
 color:#333333;
-background:url(img/button.jpg) no-repeat 0px -45px;
 }
 
 p,cite,code,ul {
@@ -253,4 +250,27 @@ h2.active {background-position: left bottom;}
 }
 .acc_container .block {
 	padding: 20px;
+}
+.meter-wrap{
+    position: relative;
+}
+
+.meter-wrap, .meter-value, .meter-text {
+    /* The width and height of your image */
+    width: 155px; height: 30px;
+}
+
+.meter-wrap, .meter-value {
+    background: #bdbdbd url(E:\Desktop\progressBar.png) top left no-repeat;
+}
+            
+.meter-text {
+    position: absolute;
+    top:0; left:0;
+
+    padding-top: 5px;
+                
+    color: #fff;
+    text-align: center;
+    width: 100%;
 }
